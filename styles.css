@@ -1,0 +1,392 @@
+/* index */
+body{
+  margin: 0;
+  background-color: white;
+}
+h1,h2,h3{
+  font-family: 'Lato', sans-serif;
+}
+p,h4{
+  font-family: 'Montserrat', sans-serif;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  padding: 1% 4% 2% 4%;
+  background: #041562;
+  top: 0;
+}
+nav h1{
+  display: inline-block;
+  font-size: 2rem;
+}
+nav p{
+  display: inline-block;
+  font-size: 1.25rem;
+  padding-left: 45%;
+}
+nav a{
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+.eduon a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+main{
+  margin-top: 0;
+}
+/* first page */
+.intro-div{
+  background-color: #fff1e0;
+  padding: 12% 5% 6% 6%;
+  width: 20%;
+  margin-left: 3%;
+  margin-bottom: 0;
+}
+.intro-div h1{
+  font-size: 4.5rem;
+  margin-bottom: 4%;
+}
+.intro-div p{
+  font-size: 1.25rem;
+  padding-bottom: 5%;
+}
+.intro-div button{
+  background-color: #041562;
+  color: white;
+  padding: 20px;
+  font-size: 1.25rem;
+  border-style: none;
+  font-family: 'Lato', sans-serif;
+}
+/* second div */
+.second-div{
+  background-color: white;
+  margin-top: 0;
+  margin: 0 3%;
+  padding: 6% 0 9% 6%;
+}
+.teach{
+  display: inline-block;
+  width: 30%;
+  margin-top: 0;
+
+}
+.teach h1{
+  font-size: 2rem;
+  margin-top: 0;
+}
+.teach p{
+  line-height: 1.5;
+  padding: 3% 0 5%;
+  font-size: 1.25rem;
+}
+.teach button{
+  background-color: #041562;
+  color: white;
+  padding: 20px;
+  font-size: 1.25rem;
+  border-style: none;
+  font-family: 'Lato', sans-serif;
+}
+.first-two{
+  display: inline-block;
+  width: 50%;
+  padding-left: 10%;
+  padding-bottom: 3%;
+}
+.second-two{
+  width: 50%;
+  padding-left: 40%;
+}
+.subject{
+  background-color: white;
+  display: inline-block;
+  width: 40%;
+  padding: 0 32px;
+}
+.subject p{
+  line-height: 1.25;
+  font-size: 1rem;
+}
+.image-container1{
+  width: 100%;
+  text-align: center;
+  background-color: #fff1e0;
+  padding: 30% 0 ;
+}
+.image-container2{
+  width: 100%;
+  text-align: center;
+  background-color: #dddff7;
+  padding: 30% 0 ;
+}
+.second-div img{
+  width: 100px;
+}
+/* review */
+.third-div{
+  background-color: #f2f2f3;
+  padding: 8% 7%;
+}
+.third-div-table td{
+  vertical-align: top;
+}
+.review{
+  width: 100%;
+}
+.review h1{
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+.review p{
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+.review-table{
+  width: 60%;
+  margin-left: 30%;
+
+}
+.review-table h3{
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.25rem;
+  border-top: 3px solid black;
+  padding-top: 8px;
+  width: 40%;
+}
+.review-table p{
+  margin-top: 4%;
+  margin-bottom: 70px;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+/* contact */
+#contact{
+  background-color:#dddff7;
+  padding: 8% 7% 6%;
+}
+.contact-us-table{
+  width: 100%;
+}
+.contact-us-table h1{
+  font-size: 2rem;
+  width: 50%;
+}
+.contact-us-table td{
+  vertical-align: top;
+}
+.contact-us-table p{
+  font-size: 1.25rem;
+  width: 60%;
+}
+.contact-us-form{
+  margin-left: 10%;
+}
+.contact-us-form td{
+  padding: 10px;
+  font-size: 1.25rem;
+}
+input{
+  background-color: #dddff7;
+  border: none;
+  border-bottom: 5px solid black;
+  width: 100%;
+  font-size: 1.25rem;
+}
+input:hover {
+  border-bottom: 3px solid black;
+}
+textarea{
+  background-color: #dddff7;
+  border: none;
+  border-bottom: 5px solid black;
+  width: 100%;
+}
+textarea:hover{
+  border-bottom: 3px solid black;
+}
+.contact-submit{
+  background-color: #dddff7;
+  border: 5px solid black;
+  padding: 6px 0;
+  width: 50%;
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-family: 'Lato', sans-serif;
+}
+.contact-submit:hover {
+  background-color: #041562;
+  color: white;
+}
+/* footer */
+footer{
+  background-color: #dddff7;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+  text-align: center;
+  font-size: 1.25rem;
+}
+footer p{
+
+  margin-bottom: 0;
+  padding-bottom: 30px;
+
+
+}
+footer a{
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+/* About page */
+.about{
+  background-color: white;
+  padding: 15% 8% 9% 7%;
+}
+.about-table td{
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+.about-table img{
+  width: 544px;
+  height: 397px;
+  padding-bottom: 82px;
+}
+.about-table h1{
+  font-size: 3.5rem;
+  margin-top: 0;
+
+  font-weight: 700;
+}
+.about-table h2{
+  font-size: 2.25rem;
+
+  margin-top: 0;
+}
+.about-table h3{
+  margin-top: 0;
+  margin-bottom: 5px;
+  border-top: 5px solid black;
+  padding-top: 6px;
+  font-size: 1.5rem;
+
+}
+.about-table h4{
+  margin-top: 0;
+  font-size: 1.25rem;
+
+}
+.about-table p{
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+.left-col{
+  padding-right: 24%;
+  width: 47%;
+}
+.right-col{
+  padding-right: 9%;
+}
+.right-col p{
+  margin-top: 0;
+  margin-bottom: 85px;
+}
+.right-col ul{
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+/* booking */
+.booking {
+  margin-top: 15rem;
+  text-align: center;
+}
+  .btn {
+    border-radius: 0px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    background: #041562;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #505899;
+    text-decoration: none;
+  }
+  .booking-sub{
+    padding-right: 5rem;
+  }
+  .booking-time{
+    padding-left: 10rem;
+    padding-right: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  hr{
+    width: 40.5%;
+    height: 3px;
+    background-color: black;
+    border: none;
+  }
+  .booking table{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* packages */
+  .packages{
+    margin-top: 15rem;
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  .packages h1{
+    font-size: 3rem;
+  }
+  .cards table{
+    border-collapse: collapse;
+    background-color: #d3d3d3;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lessons{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.75rem 5rem 0.5rem;
+    font-family: 'Lato', sans-serif;
+
+  }
+  .price{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0.5rem 5rem;
+    font-family: 'Lato', sans-serif;
+
+  }
+  .info{
+    padding: 0.5rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .orange-card{
+    background-color: #fe7649;
+  }
+  .validity{
+    padding: 3rem 2rem 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .Button{
+    padding: 0.5rem 4rem 2rem;
+    font-family: 'Lato', sans-serif;
+  }
+  .Button button{
+    width: 100%;
+  }
